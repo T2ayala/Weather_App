@@ -1,10 +1,10 @@
-import WEATHER_API_KEY from "./components/apikey";
+import GEO_API_URL_KEY from "./components/apikey";
 
 export const geoApiOptions = {
 
   method: "GET",
   headers: {
-    "X-RapidAPI-Key": WEATHER_API_KEY ,
+    "X-RapidAPI-Key": GEO_API_URL_KEY ,
     "X-RapidAPI-Host": "wft-geo-db.p.rapidapi.com"
   }
 };
